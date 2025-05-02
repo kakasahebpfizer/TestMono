@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Core_App</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
+		<members>POC_Employee__c.Band__c</members>
+		<members>POC_Employee__c.Employee_Id__c</members>
+		<members>POC_Employee__c.Employee_Type__c</members>
+		<members>POC_Employee__c.Higher_Date__c</members>
+		<members>POC_Employee__c.Is_Active__c</members>
+		<members>POC_Companys__c.Is_Active__c</members>
+		<members>POC_Companys__c.Country__c</members>
+		<members>POC_Companys__c.Start_Date__c</members>
+		<members>POC_Companys__c.Address__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>POC_Companys__c</members>
+		<members>POC_Employee__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>POC_Companys__c</members>
+		<members>POC_Employee__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Employee</members>
+		<members>Employee_App_UtilityBar</members>
+		<members>Company_Record_Page</members>
+		<members>Employee_Record_Page</members>
+		<members>Employee</members>
+		<members>Core_App_UtilityBar</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>POC_Employee__c-Employee Layout</members>
+		<members>POC_Companys__c-Company Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>pocCreateEmpLWC</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>POC_Employee__c.All</members>
+		<name>ListView</name>
+	</types>
+	<types>
+		<members>poc_Employee_Permission_set</members>
+		<name>PermissionSet</name>
+	</types>
+	<version>63.0</version>
+</Package>

@@ -1,0 +1,27 @@
+<template>
+    <div style="background-color:white; width:100%;height:100%; border : 1px grey solid ; border-radius :6px ; padding : 10px;">
+    <lightning:card class="slds-text-heading_small slds-card_boundary "  title="Employee" >
+         <h3 slot="title">
+            <lightning-icon icon-name="utility:connected_apps" size="small"></lightning-icon>
+            Employee Details 
+        </h3>
+    <lightning-record-edit-form
+        object-api-name="POC_Employee__c"
+        record-id={Id}
+        onsuccess={handleSuccess}>
+        <lightning-input-field field-name="Name"></lightning-input-field>
+        <lightning-input-field field-name="Is_Active__c"></lightning-input-field>
+         <lightning-input-field field-name="Higher_Date__c"></lightning-input-field>
+        <lightning-input-field field-name="Employee_Type__c"></lightning-input-field>
+         <lightning-input-field field-name="Employee_Id__c"></lightning-input-field>
+        <lightning-button class="slds-m-top_small" type="submit" label="Save"  ></lightning-button>
+        <lightning-button
+   variant="Neutral"
+   label="Cancel" 
+   class="slds-m-left_x-small"
+   type="reset">
+</lightning-button>
+    </lightning-record-edit-form>
+    </lightning:card>
+    </div>
+</template>
