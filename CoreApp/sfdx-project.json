@@ -14,6 +14,7 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "63.0",
   "packageAliases": {
-    "CoreA": "0HoKZ0000008OmQ0AU"
+    "CoreA": "0HoKZ0000008OmQ0AU",
+    "CoreA@0.1.0-1": "04tKZ0000004hTAYAY"
   }
 }
